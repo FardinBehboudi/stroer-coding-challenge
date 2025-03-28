@@ -9,6 +9,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
+/**
+ * REST Controller to expose the User with Posts API.
+ *
+ * <p>To test this endpoint, send a GET request to:
+ * <pre>
+ *     GET /api/users/{id}
+ *     Example: /api/users/1
+ * </pre>
+ *
+ * This will return the user's information along with all posts created by that user.
+ */
 @RestController
 @RequestMapping("api/users")
 @RequiredArgsConstructor

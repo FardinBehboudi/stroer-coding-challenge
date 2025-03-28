@@ -12,6 +12,9 @@ import reactor.core.publisher.Mono;
 
 import java.util.List;
 
+/**
+ * Service to fetch user data and posts asynchronously using WebClient.
+ */
 @Service
 @RequiredArgsConstructor
 public class UserService {
